@@ -1,0 +1,89 @@
+.liveDetail_main {
+    height: 51rem;
+    position: relative;
+    background: url("http://r.photo.store.qq.com/psb?/V11cXZik1xvWSk/VWP93T6vgzodUM7SiawbnAOePDMp3w.Puq0hUfzg7x0!/r/dF4BAAAAAAAA") no-repeat;
+    -webkit-background-size: cover;
+    /*text-align: center;*/
+}
+
+.liveDetail_main .liveDetail_header {
+    position: relative;
+    /*text-align: center;*/
+}
+
+.liveDetail_main .liveDetail_header .icon {
+    font-family: "myfont";
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 60%;
+}
+
+.liveDetail_main .liveDetail_body {
+    width: 100%;
+    text-align: center;
+}
+
+.liveDetail_body .live_title {
+    /*border: 1px solid red;*/
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+}
+
+/*简介*/
+.liveDetail_body .live_content {
+    font-size: 0.8rem;
+    width: 90%;
+    height: 7.5rem;
+    overflow: hidden;
+    margin: 1rem auto;
+
+    /*text-indent: 2em;*/
+    line-height: 1.5rem;
+    letter-spacing: 0.18rem;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, .6);
+}
+
+/*标题 icon*/
+.liveDetail_main .liveDetail_body .live {
+    text-decoration: none;
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+/*标题*/
+.liveDetail_main .liveDetail_body .live_title {
+    color: rgba(255, 255, 255, .6);
+    font-size: 1.6rem;
+    margin-bottom: 0;
+
+}
+
+/*箭头图标*/
+.liveDetail_body .liveContent_icon img {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #666;
+}
+
+.liveDetail_main .liveDetail_footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/*简介 ——下拉*/
+.liveDetail_body .liveContent_Change {
+    font-size: 0.8rem;
+    width: 90%;
+    height: 12rem;
+    /*text-indent: 2em;*/
+    line-height: 1.5rem;
+    letter-spacing: 0.18rem;
+    overflow: hidden;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, .6);
+    margin: 1rem auto;
+}

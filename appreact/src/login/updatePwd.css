@@ -1,0 +1,59 @@
+.update_main{
+    height: 53rem;
+}
+.update_main .update_header{
+    position: relative;
+    /*text-align: center;*/
+}
+.update_main .update_header .icon{
+    font-family: "myfont";
+    color: #f4f4f4;
+    font-size: 1.5rem;
+    position: absolute;
+    left:1rem;
+    top: 60%;
+}
+.update_main .update_main{
+    text-align: center;
+}
+.update_main input{
+    width: 75%;
+    height: 3rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-top: 2rem;
+    outline: none;
+}
+.update_main button{
+    outline: none;
+    margin-top: 2rem;
+    width: 70%;
+    height: 2.5rem;
+    border: 1px solid transparent;
+    color: rgba(255,255,255,.8);
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    background-color: rgba(0,0,0,.7);
+}
+/*获取验证码*/
+.update_main  .validate{
+    position: relative;
+}
+/*发送按钮*/
+.update_main .validate .confirm{
+    background-color: transparent;
+    color: #333;
+    width: 26%;
+    /*border: 1px solid red;*/
+    position: absolute;
+    font-size: .8rem;
+    outline: none;
+    top: -7%;
+    right: 10%;
+}
+.update_main .toLogin p{
+    text-decoration: none;
+    color: #333;
+    margin-top: 2rem;
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "myfont";
+    src:url("/font/iconfont.woff");
+}
+#homeNav .nav{
+    position: fixed;
+    bottom: 0;left: 0;
+    width: 100%;
+    height: 4.6rem;
+    color: white;
+    background-color:rgba(0,0,0,.3);
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+#homeNav  .nav li{
+    width: 20%;
+    height:4.6rem;
+    list-style: none;
+    text-align: center;
+    font-size: 0.4rem;
+    /*border: 1px solid red;*/
+}
+#homeNav .nav li a{
+    color:white ;
+    line-height: 4rem;
+    position: relative;
+    top: 0.4rem;
+}
+#homeNav .nav li a span{
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    font-family: myfont;
+    position: absolute;
+    top: 0.6rem;left: 0;
+    text-align: center;
+}
+#homeNav .nav li:nth-child(3) a span{
+    font-size: 1.4rem;
+    top: 0.2rem;
+}
+#homeNav .nav>li>a:focus{
+    background:none;
+    color: #Fad144;
+}

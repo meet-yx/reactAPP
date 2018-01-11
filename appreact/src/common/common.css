@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "myfont";
+    src:url("/font/iconfont.woff");
+    /*src:url("/font/iconfont.eot");*/
+    /*src:url("/font/iconfont.ttf");*/
+}
+/*@font-face {font-family: "myfont";*/
+    /*src: url('/font/iconfont.eot'); !* IE9*!*/
+    /*src: url('../font/iconfont.svg#iconfont') format('svg'), !* iOS 4.1- *!*/
+    /*url('/font/iconfont.woff') format('woff'), !* chrome、firefox *!*/
+    /*url('/font/iconfont.ttf') format('truetype'); !* chrome、firefox、opera、Safari, Android, iOS 4.2+*!*/
+/*}*/
+.brand_main,.login_main,.live_main,.update_main,
+.liveDetail_main{
+    width: 100%;
+    background-color: #f4f4f4;
+    /*color: #fad144;*/
+}
+
+.live_header,.brand_header,.update_header,
+.liveDetail_header,.findDetail_header{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    background-color: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.8);
+    box-shadow: 1px 1px 1px 1px #999;
+}
+/*.brand_footer,.live_footer,.liveDetail_footer{*/
+    /*padding-bottom: 1rem;*/
+    /*height: 4.6rem;*/
+    /*width: 100%;*/
+    /*!*border: 1px solid red;*!*/
+    /*background-color: black;*/
+/*}*/
+.foot_text{
+    width: 100%;
+    height: 10rem;
+    line-height: 6rem;
+    color: darkgray;
+    text-align: center;
+    /*background-color: darkgray;*/
+}
